@@ -26,60 +26,84 @@
 				<h1><a href="#">디자인투플라이</a></h1>
 			</div><!--//#logo-->
 
-			<nav id="gnb">
+			<div id="btns">
 				<ul>
-					<li><a href="#">ABOUT</a>
-						<div class="sub">
-							<ul>
-								<li><a href="#">BRAND STORY</a></li>
-								<li><a href="#">PROCESS</a></li>
-							</ul>
-						</div><!--//.sub-->
-					</li>
-					<li><a href="#">WORKS</a>
-						<div class="sub">
-							<ul>
-								<li><a href="#">ARCHITECTURE</a></li>
-								<li><a href="#">RESIDENCE</a></li>
-								<li><a href="#">COMMERCIAL</a></li>
-								<li><a href="#">MEICAL</a></li>
-								<li><a href="#">OFFICE</a></li>
-							</ul>
-						</div><!--//.sub-->
-					</li>
-					<li><a href="#">BRANDING</a>
-						<div class="sub">
-							<ul>
-								<li><a href="#">LOGO</a></li>
-								<li><a href="#">WEB</a></li>
-								<li><a href="#">PRINT</a></li>
-								<li><a href="#">EMBLEM</a></li>
-							</ul>
-						</div><!--//.sub-->
-					</li>
-					<li><a href="#">PRESS</a></li>
-					<li><a href="#">고객문의</a>
-						<div class="sub">
-							<ul>
-								<li><a href="#">BOARD</a></li>
-								<li><a href="#">WORKSTORY</a></li>
-							</ul>
-						</div><!--//.sub-->
-					</li>
-					<li><a href="#">CONTACT</a></li>
+					<li><a href="#" class="open_search">
+						<i class="xi-search xi-2x"></i>
+						<span>검색하기</span></a></li>
+					<li><a href="#" class="open_menu">
+						<i class="xi-bars xi-2x"></i>
+						<i class="xi-close xi-2x"></i>
+						<span>전체<br/>메뉴</span></a></li>
 				</ul>
-			</nav><!--//#gnb-->
+			</div><!--//#btns-->
 
-			<div id="sns">
-				<ul>
-					<li><a href="#"><i class="xi-instagram xi-2x"></i></a></li>
-					<li><a href="#"><i class="xi-facebook-official xi-2x"></i></a></li>
-					<li><a href="#"><i class="xi-naver-square xi-2x"></i></a></li>
-					<li><a href="#"><i class="xi-search xi-2x"></i></a></li>
-				</ul>
-			</div><!--//#sns-->
+			<div class="menu">
+				<nav id="gnb">
+					<ul>
+						<li><a href="#">ABOUT</a>
+							<div class="sub">
+								<ul>
+									<li><a href="#">BRAND STORY</a></li>
+									<li><a href="#">PROCESS</a></li>
+								</ul>
+							</div><!--//.sub-->
+						</li>
+						<li><a href="#">WORKS</a>
+							<div class="sub">
+								<ul>
+									<li><a href="#">ARCHITECTURE</a></li>
+									<li><a href="#">RESIDENCE</a></li>
+									<li><a href="#">COMMERCIAL</a></li>
+									<li><a href="#">MEICAL</a></li>
+									<li><a href="#">OFFICE</a></li>
+								</ul>
+							</div><!--//.sub-->
+						</li>
+						<li><a href="#">BRANDING</a>
+							<div class="sub">
+								<ul>
+									<li><a href="#">LOGO</a></li>
+									<li><a href="#">WEB</a></li>
+									<li><a href="#">PRINT</a></li>
+									<li><a href="#">EMBLEM</a></li>
+								</ul>
+							</div><!--//.sub-->
+						</li>
+						<li><a href="#">PRESS</a></li>
+						<li><a href="#">고객문의</a>
+							<div class="sub">
+								<ul>
+									<li><a href="#">BOARD</a></li>
+									<li><a href="#">WORKSTORY</a></li>
+								</ul>
+							</div><!--//.sub-->
+						</li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</nav><!--//#gnb-->
+
+				<div id="sns">
+					<ul>
+						<li><a href="#"><i class="xi-instagram xi-2x"></i></a></li>
+						<li><a href="#"><i class="xi-facebook-official xi-2x"></i></a></li>
+						<li><a href="#"><i class="xi-naver-square xi-2x"></i></a></li>
+					</ul>
+				</div><!--//#sns-->
+			</div><!--//.menu-->	
 		</div><!--//.inner-->
 	</header>
+ 
+	<aside id="search">
+		<div class="inner">
+			<form>
+				<input type="text" placeholder="Search.."/>
+				<p>검색을 할땐 엔터를 누르고, 닫으려면 
+					<span>ESC키를 누르거나</span> X를 눌러주세요.</p>
+			</form>
+		</div>
+		<a class="close_search"><i class="xi-close xi-x"></i></a>
+	</aside><!--//#search-->
  
 	<main>
 		<section id="main_view">
@@ -131,7 +155,7 @@
 		</section><!--//#main_view-->
 
 		<section id="works">
-			<h3><a href="#">works</a></h3>
+			<h3><a href="#">WORKS</a></h3>
 			<ul class="list">
 				<li><a href="#">
 					<h4>온가족이 함께 할 수 있는 공간 – 진흥더블파크 50평대 아파트인테리어</h4>
@@ -277,10 +301,70 @@
 				<div class="dot"></div>
 			</div><!--//.inner-->			
 		</section><!--//#press-->
-
-	</main>
  
+		<section id="partners">
+			<h3>PARTNERS</h3>
+			<ul>
+				<li><img src="images/partners/01.jpg" alt=""></li>
+				<li><img src="images/partners/02.jpg" alt=""></li>
+				<li><img src="images/partners/03.jpg" alt=""></li>
+				<li><img src="images/partners/04.jpg" alt=""></li>
+				<li><img src="images/partners/05.jpg" alt=""></li>
+				<li><img src="images/partners/06.jpg" alt=""></li>
+				<li><img src="images/partners/07.jpg" alt=""></li>
+				<li><img src="images/partners/08.jpg" alt=""></li>
+				<li><img src="images/partners/09.jpg" alt=""></li>
+				<li><img src="images/partners/10.jpg" alt=""></li>
+				<li><img src="images/partners/11.jpg" alt=""></li>
+				<li><img src="images/partners/12.jpg" alt=""></li>
+				<li><img src="images/partners/13.jpg" alt=""></li>
+				<li><img src="images/partners/14.jpg" alt=""></li>
+				<li><img src="images/partners/15.jpg" alt=""></li>
+				<li><img src="images/partners/16.jpg" alt=""></li>
+				<li><img src="images/partners/17.jpg" alt=""></li>
+				<li><img src="images/partners/18.jpg" alt=""></li>
+				<li><img src="images/partners/19.jpg" alt=""></li>
+				<li><img src="images/partners/20.jpg" alt=""></li>
+				<li><img src="images/partners/21.jpg" alt=""></li>
+				<li><img src="images/partners/22.jpg" alt=""></li>
+				<li><img src="images/partners/23.jpg" alt=""></li>
+				<li><img src="images/partners/24.jpg" alt=""></li>
+				<li><img src="images/partners/25.jpg" alt=""></li>
+				<li><img src="images/partners/26.jpg" alt=""></li>
+				<li><img src="images/partners/27.jpg" alt=""></li>
+			</ul>
+		</section><!--//#partners-->
+	</main>
 
+	<footer>
+		<div class="inner">
+			<div class="logo">
+				<h1><img src="images/btm-logo.png" alt="디자인투플라이"></h1>
+			</div><!--//.logo-->
+			<div class="info">
+				<dl>
+					<dt>JEONJU</dt>
+					<dd>634-7, Junghwasan-dong 2-ga, Wansan-gu, Jeonju-si, 
+						Jeollabuk-do, Korea</dd>
+					<dd>designtwoply@naver.com</dd>
+					<dd>Tel : 070-4120-2678</dd>
+					<dd>Fax : 063-232-2679</dd>
+				</dl>
+			</div><!--//.info-->
+			<div class="info">
+				<dl>
+					<dt>DAEGU</dt>
+					<dd>14, Muhak-ro 21an-gil, Suseong-gu, Daegu, Korea</dd>
+					<dd>twoplytk@naver.com</dd>
+					<dd>Tel : 053-295-2915</dd>
+					<dd>Fax : 053-295-2916</dd>					
+				</dl>
+			</div><!--//.info-->
+		</div><!--//inner-->
+		<div class="copyright">
+			<p>Copyright &copy; 디자인투플라이 All Rights Reserved.</p>
+		</div>
+	</footer>
 
 	<!--외부 스크립트(플러그인) 연결-->
 	<script src="js/ScrollGiveClass.js"></script>
