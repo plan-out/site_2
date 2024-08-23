@@ -190,6 +190,7 @@ header.scrolled #gnb a::after {
   padding: 15px 5px;
 }
 
+<<<<<<< HEAD
 #search {
   position: fixed;
   top: 0;
@@ -255,6 +256,8 @@ header.scrolled #gnb a::after {
   transform: rotate(90deg);
 }
 
+=======
+>>>>>>> b23c316ce725302752f9d37c98609762e49f39e9
 #main_view {
   overflow: hidden;
   background: #000;
@@ -603,6 +606,7 @@ header.scrolled #gnb a::after {
 }
 #press .dot span.active {
   opacity: 1;
+<<<<<<< HEAD
 }
 
 #partners {
@@ -913,4 +917,6 @@ footer .copyright p {
   footer .info {
     width: calc(50% - 20px);
   }
+=======
+>>>>>>> b23c316ce725302752f9d37c98609762e49f39e9
 }
